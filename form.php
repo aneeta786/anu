@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
  $email   =$_POST['email'];
  $phone   =$_POST['phone'];
  $user    = $_POST['user'];
-jijolkok
+
 echo $final =  date('Y-m-d', strtotime("+".$user." days"));
 // $sql ="insert into form (name,email,phone,user) values('$name','$email','$phone','$user')";
 //mysqli_query($conn,$sql);
